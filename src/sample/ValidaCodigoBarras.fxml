@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<AnchorPane fx:id="pane" id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="129.0" prefWidth="379.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="129.0" prefWidth="379.0">
+      <children>
+        <Label layoutX="20.0" layoutY="27.0" prefWidth="200.0" text="Digite o código de barras" />
+       <!--<Button fx:id="btnVerifica" layoutX="230.0" layoutY="76.0" mnemonicParsing="false" prefWidth="93.0" text="Verifica" />-->
+        <TextField fx:id="txtCodBarra" layoutX="200.0" layoutY="24.0" prefWidth="150.0" />
+        <Label fx:id="lblValido" layoutX="150.0" layoutY="76.0" prefWidth="200.0" text="" />
+      </children>
+    </AnchorPane>
+  </children>
+  <stylesheets>
+    <URL value="@validador.css" />
+  </stylesheets>
+</AnchorPane>

@@ -1,0 +1,21 @@
+.root {
+        -fx-background-color: #404548;
+}
+
+.button {
+        -fx-color: #f1f1f1;
+}
+
+.label {
+        -fx-font-size: 14;
+        -fx-text-fill: #f1f1f1;
+}
+
+.label-success {
+        -fx-font-size: 20;
+        -fx-text-fill: chartreuse;
+}
+.label-error {
+        -fx-font-size: 20;
+        -fx-text-fill: red;
+}
